@@ -17,7 +17,7 @@ Using [epm](http://github.com/JacobVorreuter/epm), you can install in the follow
 	===============================
 	Install the following packages?
 	===============================
-	    + hyperthunk-gen_server2-master
+	    + ErlangChina-gen_server2-master
 
 	([y]/n) y
 
