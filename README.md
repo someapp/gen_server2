@@ -11,17 +11,17 @@ Installation
 
 Using [epm](http://github.com/JacobVorreuter/epm), you can install in the following manner: 
 
-	t4@malachi:~ $ epm install ErlangChina/gen_server2
+	t4@malachi:~ $ epm install 'erlang-china/gen_server2'
 	epm v0.1.1, 2010
 
 	===============================
 	Install the following packages?
 	===============================
-	    + ErlangChina-gen_server2-master
+	    + erlang-china-gen_server2-master
 
 	([y]/n) y
 
-	+ downloading http://github.com/ErlangChina/gen_server2/tarball/master
+	+ downloading http://github.com/erlang-china/gen_server2/tarball/master
 	+ compiling with rebar...
 	+ running gen_server2 build command
 	+ running gen_server2 install command
@@ -39,14 +39,14 @@ it pulled down automatically:
 
 	%% file: rebar.config
 	{deps, [
-	  {gen_server2, "1.0.0", {git, "https://github.com/ErlangChina/gen_server2.git", "master"}}
+	  {gen_server2, "1.0.0", {git, "https://github.com/erlang-china/gen_server2.git", "master"}}
 	]}.
 
 And pull it with get/check-deps:
 
 	t4@malachi:plumber $ rebar get-deps
 	==> plumber (get-deps)
-	Pulling gen_server2 from {git,"https://github.com/ErlangChina/gen_server2.git",
+	Pulling gen_server2 from {git,"https://github.com/erlang-china/gen_server2.git",
 	                              "master"}
 	Initialized empty Git repository in /Users/t4/work/mine/plumber/deps/gen_server2/.git/
 	Already on 'master'
